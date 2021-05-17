@@ -1,0 +1,10 @@
+.optionLink {
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto Slab";
+}
+
+.basicSetup {
+  font-size: 18px;
+}
