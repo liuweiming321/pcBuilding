@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar.Brand style={{ fontFamily: "Train One", paddingLeft: "20px" }}>
           Very Own PC
         </Navbar.Brand>
-        <Container>
+        <Container style={{ marginRight: "30%" }}>
           {/* <Nav className="mr-auto"></Nav> */}
           <Nav className="optionLink">
             <Nav.Link href="#prebuilt">Prebuilt</Nav.Link>

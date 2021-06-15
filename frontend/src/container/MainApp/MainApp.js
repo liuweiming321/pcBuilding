@@ -6,7 +6,7 @@ import HomeOption from "../../component/HomeOption/HomeOption.js";
 class MainApp extends Component {
   mainFunc() {
     return (
-      <div>
+      <div style={{ backgroundColor: "#35333b" }}>
         <Header />
         <HomeSlide />
         <HomeOption />

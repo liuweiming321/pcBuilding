@@ -1,13 +1,15 @@
 .basic {
   text-align: center;
   margin-top: 20px;
+  color: #ffffff;
 }
 
 .optionBorder {
   display: inline-block;
-  width: 20%;
+  width: 15%;
   height: auto;
-  border: 6px solid #000000;
-  margin-left: 5px;
-  margin-right: 5px;
+  border: 6px solid #f5dca7;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #4518b8;
 }
