@@ -8,15 +8,15 @@ const Header = () => {
     <div class="basicSetup">
       <Navbar bg="dark" expand="lg" variant="dark">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Brand style={{ fontFamily: "Train One", paddingLeft: "20px" }}>
-          Very Own PC
+        <Navbar.Brand style={{ fontFamily: "Train One", paddingLeft: "10px" }}>
+          <Nav.Link href="/home" style={{color : "#ffffff"}}>Very Own PC</Nav.Link>
         </Navbar.Brand>
         <Container style={{ marginRight: "30%" }}>
           {/* <Nav className="mr-auto"></Nav> */}
           <Nav className="optionLink">
-            <Nav.Link href="#prebuilt">Prebuilt</Nav.Link>
-            <Nav.Link href="#build">Build Your Own</Nav.Link>
-            <Nav.Link href="#order">Order</Nav.Link>
+            <Nav.Link href="/prebuilt">Prebuilt</Nav.Link>
+            <Nav.Link href="/buildyourown">Build Your Own</Nav.Link>
+            <Nav.Link href="/order">Order</Nav.Link>
           </Nav>
         </Container>
         <Nav className="languageOption">

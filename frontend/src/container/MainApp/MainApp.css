@@ -1,3 +1,5 @@
-.basicSetup {
-  font-size: 18px;
+html, body{
+  background-color: #35333b;
+  width: 100vw;
+  height: 100vh;
 }
