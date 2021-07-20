@@ -3,11 +3,16 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { QueryClient, QueryClientProvider } from "react-query";
+
+const client = new QueryClient();
 
 ReactDOM.render(
-  <Suspense fallback={<div>Loading ~~~</div>}>
-    <App />
-  </Suspense>,
+  <QueryClientProvider client={client}>
+      <Suspense fallback={<div>Loading ~~~</div>}>
+        <App />
+      </Suspense>
+  </QueryClientProvider>,
   document.getElementById("root")
 );
 

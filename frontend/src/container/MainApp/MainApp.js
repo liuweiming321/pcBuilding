@@ -7,6 +7,7 @@ import Prebuilt from "../Prebuilt/Prebuilt.js";
 import { BrowserRouter as Router, Redirect } from "react-router-dom";
 import Route from "react-router-dom/Route";
 import "./MainApp.css";
+import Sidebar from "../../component/SideBar/Navbar.js";
 
 class MainApp extends Component {
   mainFunc() {
@@ -65,6 +66,7 @@ class MainApp extends Component {
             </Route>
           </div>
         </Router>
+        {/* <Sidebar /> */}
       </div>
     );
   }
